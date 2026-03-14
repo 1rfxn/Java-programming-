@@ -4,7 +4,6 @@ public class PrimeNumber {
         int num = 11;
         for(int i = 2 ; i < 100 ; i ++)
         {
-            int count = 0;
             for(int j = 2 ; j <= i/2 ; j++)
             {
                 if(i % j == 0)
