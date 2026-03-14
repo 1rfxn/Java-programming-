@@ -7,8 +7,7 @@ public class PrimeNumber {
             for(int j = 2 ; j <= i/2 ; j++)
             {
                 if(i % j == 0)
-                {
-                    
+                {  
                     count++;
                     break;
                 }
