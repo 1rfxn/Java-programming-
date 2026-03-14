@@ -8,6 +8,7 @@ public class PrimeNumber {
             {
                 if(i % j == 0)
                 {  
+                    
                     count++;
                     break;
                 }
